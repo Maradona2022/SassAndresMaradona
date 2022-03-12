@@ -1,0 +1,87 @@
+/*===================MENU==========================*/
+#menu a, button {
+  font-size: 18px !important;
+  font-weight: 600; }
+
+#menu a {
+  color: #3f3f3f;
+  /*=========================CONTACTOS FORMULARIO================================*/
+  /*=========================CONTACTOS BACKGROUND================================*/
+  /*===================SLIDER DE IMAGENES==========================*/
+  /*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
+  /*=========================MEDIA QUERIES PANTALLA SM================================*/
+  /*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/ }
+  #menu a #contenedor-formulario {
+    position: absolute;
+    margin: 50px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px; }
+  #menu a #titulo-formulario {
+    color: #3f3f3f; }
+  #menu a #bg-contactos {
+    position: relative;
+    top: -130px; }
+  #menu a #seccion-contacto {
+    background-color: #1b2a4e;
+    min-height: 500px;
+    position: relative; }
+  #menu a .carousel-inner {
+    max-height: 39rem !important; }
+  @media (max-width: 1200px) {
+    #menu a #intro, #menu a #equipo {
+      width: 90% !important;
+      margin: auto; }
+    #menu a #local {
+      flex-wrap: wrap;
+      padding-top: 30px; }
+    #menu a .wrapper-local {
+      width: 90%;
+      margin: auto;
+      padding-top: 50px; } }
+  @media (max-width: 768px) {
+    #menu a #intro, #menu a #equipo {
+      width: 90% !important;
+      margin: auto; }
+    #menu a #img-equipo {
+      max-height: 20rem !important;
+      width: 90%; }
+    #menu a .wrapper-local {
+      width: 90%;
+      margin: auto;
+      padding-top: 50px; }
+    #menu a #local {
+      flex-wrap: wrap; }
+    #menu a .mapa img {
+      width: 100%;
+      height: auto; }
+    #menu a #bg-contactos {
+      top: -120px; } }
+  @media (max-width: 576px) {
+    #menu a #servicios-fila-2 {
+      width: 100% !important; }
+    #menu a #servicios-fila-1 {
+      width: 100% !important; }
+    #menu a .icono-wrap {
+      flex-wrap: wrap !important;
+      justify-content: center !important;
+      text-align: center; } }
+
+footer {
+  background: #1b2a4e;
+  min-height: 100px; }
+
+footer p {
+  color: #f3f3f3;
+  text-align: center; }
+
+#iconos i {
+  font-size: 26px;
+  padding: 0 8px;
+  color: #f3f3f3; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden; }
